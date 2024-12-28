@@ -74,7 +74,7 @@ Make a python file and write a code inside it, Put a filename inside of the {fil
 
 ### 📂 **File commands**
 
-```python
+```
   file commands:
     dirm {dirname} (makes a dir)
     dirr {dirname} (removes a dir)
