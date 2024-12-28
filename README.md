@@ -23,10 +23,6 @@ Feel free to send your feedback, issues, questions, or even your ideas.
 - **⭐ Math & Entertainment commands**
 
   calculate your calculations using math commands, like "c" for calculate.
-
-
-
-   (You can get information about all of the commands at the [Documentation Part](https://github.com/soodi592/soodi592-Terminal?tab=readme-ov-file#documentation)
   
 ## **📖 Full Documentation**
 
