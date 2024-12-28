@@ -14,7 +14,7 @@ os.system("color")
 class start_terminal:
     """
 # starts terminal
-this class has been writed by ali safamanesh in 1042/12/10 or 2024/2/29
+this class has been writed by ali safamanesh in 1402/12/10 or 2024/2/29
     """
     
 
@@ -57,7 +57,7 @@ commands:
   close"""
     
         ff = """
-
+                                                                                 
        _______  _______  _______  ______   ___   _______  _______  _______       
       |       ||       ||       ||      | |   | |       ||  _    ||       |      
       |  _____||   _   ||   _   ||  _    ||   | |   ____|| | |   ||____   |      
@@ -65,7 +65,8 @@ commands:
       |_____  ||  |_|  ||  |_|  || |_|   ||   | |_____  ||___    || ______|      
        _____| ||       ||       ||       ||   |  _____| |    |   || |_____       
       |_______||_______||_______||______| |___| |_______|    |___||_______|      
-
+                                                                                 
+                                                                                 
 """
 
         # ff = pyfiglet.figlet_format("darg terminal")
@@ -88,7 +89,7 @@ commands:
                   colorama.Fore.GREEN,
                   sys.path[0].capitalize()+">"+
                   colorama.Style.RESET_ALL,"",end="")
-            user = input()
+            user = input().lower()
 
             if user == "info" or "about" in user:
                 print("""
@@ -203,7 +204,7 @@ my website :"""+colorama.Fore.BLUE+"https://soodi592.ir/",colorama.Style.RESET_A
                         f+=i+"\n"
                     saved[user.removeprefix("textedit ")] = f
                 else:
-                    print("cant find that")
+                    print("can't find that")
 
             elif user == "texts":
                 print(snames)
@@ -252,7 +253,7 @@ my website :"""+colorama.Fore.BLUE+"https://soodi592.ir/",colorama.Style.RESET_A
                 os.system("rundll32.exe powrprof.dll,SetSuspendState 0,1,0")
 
             else:
-                print(f"{user} not in commands")
+                print(f"'{user}' not in commands.")
             
 
 
