@@ -174,6 +174,7 @@ not categorized:
   pypkg {python package name}
   clear | cls
   close
+  help
 ```
 
 < **Info** >
@@ -223,6 +224,12 @@ Clears the terminal.
 parameters: None
 
 Closes the terminal.
+
+< **Help** >
+
+parameters: None
+
+Shows all commands.
 
 ## **📥 Installing**
 
