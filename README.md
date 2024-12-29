@@ -1,6 +1,7 @@
 # **🌐soodi592-Terminal - A Powerfull terminal made in python for general usage**
 
 I made this customized terminal for fun at childhood.😁
+Its really like command prompt or powershell, but with MY customized commands.
 Feel free to send your feedback, issues, questions, or even your ideas.
 
 ## **🌟 Key Features**
@@ -45,32 +46,32 @@ This types of command, save a text inside a name, this means you can save some d
 
 parameters: {name}
 
-Add an object to cache for later use, Put the name of the object you want to save inside {name} parameter.
+Adds an object to cache for later use, Put the name of the object you want to save inside {name} parameter.
 
 < **TextEdit** >
 
 parameters: {name}
 
-Put the data into the created object, Put the name of the object inside the {name} parameter, then write the data after the command is sent and this symbol shows up : ">"
+Puts the data into the created object, Put the name of the object inside the {name} parameter, then write the data after the command is sent and this symbol shows up : ">"
 whenever you are done (want to end the work of saving data) just put this symbol at the end of your data: ";".
 
 < **TextLoad** >
 
 parameters: {name}
 
-See a saved object data, Put the object you want to see inside of the {name} parameter.
+Shows a saved object data, Put the object you want to see inside of the {name} parameter.
 
 < **Texts** >
 
 parameters: None
 
-Show all saved texts.
+Shows all saved texts.
 
 < **PyIde** >
 
 parameters: {filename.py}
 
-Make a python file and write a code inside it, Put a filename inside of the {filename.py} parameter like "helloworld.py" or anything else you want, after sending the command, you see a new line appear without any text on it, in that part, write the code you want to put inside the python file when these things appear, when you are done, just put this symbol at the end: ";".
+Makes a python file and writes your entered code inside it, Put a filename inside of the {filename.py} parameter like "helloworld.py" or anything else you want, after sending the command, you see a new line appear without any text on it, in that part, write the code you want to put inside the python file when these things appear, when you are done, just put this symbol at the end: ";".
 
 ### 📂 **File commands**
 
@@ -125,7 +126,7 @@ Opens the file for editing.
 
 parameters: {file_name_or_path}
 
-Read the file. (Returns the file contents)
+Reads the file. (Returns the file contents)
 
 ### 🖥️ **System commands**
 
@@ -160,6 +161,68 @@ Hibernates the system.
 parameters: None
 
 Sleeps the system.
+
+### 🌐 **Other commands**
+
+```
+not categorized:
+  info
+  cmd
+  ps
+  net | internet
+  c {like_2+2} (calculates anything)
+  pypkg {python package name}
+  clear | cls
+  close
+```
+
+< **Info** >
+
+parameters: None
+
+Returns information about the creator.
+
+< **CMD** >
+
+parameters: None
+
+Goes to command prompt, type exit to get back to the project.
+
+< **PS** >
+
+parameters: None
+
+Goes to windows powershell, type exit to get back to the project.
+
+< **Net & Internet** >
+
+parameters: None
+
+Returns internet connectivity status.
+
+< **C** >
+
+parameters: {calculation}
+
+C stands for calculate, this command calculates anything.
+
+< **PyPKG** >
+
+parameters: {python package name}
+
+Downloads and installs the specified package.
+
+< **Cls & Clear** >
+
+parameters: None
+
+Clears the terminal.
+
+< **Close** >
+
+parameters: None
+
+Closes the terminal.
 
 ## **📥 Installing**
 
