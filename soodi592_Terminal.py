@@ -14,7 +14,7 @@ os.system("color")
 class start_terminal:
     """
 # starts terminal
-this class has been writed by ali safamanesh in 1402/12/10 or 2024/2/29
+this class has been updated by soodi592 in 1403-10-9 or 2024-12-29
     """
     
 
@@ -54,7 +54,8 @@ commands:
   c {like_2+2} (calculates anything)
   pypkg {python package name}
   clear | cls
-  close"""
+  close
+  help"""
     
         ff = """
                                                                                  
@@ -69,7 +70,7 @@ commands:
                                                                                  
 """
 
-        # ff = pyfiglet.figlet_format("darg terminal")
+        # ff = pyfiglet.figlet_format("soodi592-Terminal")
 
         for x in ff:
             sys.stdout.flush()
@@ -204,7 +205,7 @@ my website :"""+colorama.Fore.BLUE+"https://soodi592.ir/",colorama.Style.RESET_A
                         f+=i+"\n"
                     saved[user.removeprefix("textedit ")] = f
                 else:
-                    print("can't find that")
+                    print("can't find that.")
 
             elif user == "texts":
                 print(snames)
