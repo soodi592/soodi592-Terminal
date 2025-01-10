@@ -166,7 +166,7 @@ Sleeps the system.
 
 ```
 not categorized:
-  info
+  info | about
   cmd
   ps
   net | internet
@@ -177,7 +177,7 @@ not categorized:
   help
 ```
 
-< **Info** >
+< **Info & About** >
 
 parameters: None
 

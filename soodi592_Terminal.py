@@ -9,6 +9,13 @@ import requests
 import jdatetime
 import time
 
+#    ███████╗ ██████╗  ██████╗ ██████╗ ██╗███████╗ █████╗ ██████╗ 
+#    ██╔════╝██╔═══██╗██╔═══██╗██╔══██╗██║██╔════╝██╔══██╗╚════██╗
+#    ███████╗██║   ██║██║   ██║██║  ██║██║███████╗╚██████║ █████╔╝
+#    ╚════██║██║   ██║██║   ██║██║  ██║██║╚════██║ ╚═══██║██╔═══╝ 
+#    ███████║╚██████╔╝╚██████╔╝██████╔╝██║███████║ █████╔╝███████╗
+#    ╚══════╝ ╚═════╝  ╚═════╝ ╚═════╝ ╚═╝╚══════╝ ╚════╝ ╚══════╝
+
 os.system("color")
 
 class start_terminal:
@@ -47,7 +54,7 @@ commands:
  
  """+colorama.Fore.YELLOW+"""
  not categorized:
-  info
+  info | about
   cmd
   ps
   net | internet
@@ -94,7 +101,7 @@ commands:
 
             if user == "info" or "about" in user:
                 print("""
-this terminal have been writed by soodi592
+This terminal have been writed by soodi592
 github : """+colorama.Fore.BLUE+"https://github.com/soodi592/",colorama.Style.RESET_ALL+"""
 my website :"""+colorama.Fore.BLUE+"https://soodi592.ir/",colorama.Style.RESET_ALL)
             elif user == "help":
