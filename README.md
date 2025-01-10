@@ -24,7 +24,30 @@ Feel free to send your feedback, issues, questions, or even your ideas.
 - **⭐ Math & Entertainment commands**
 
   calculate your calculations using math commands, like "c" for calculate.
-  
+
+## **📥 Installing**
+
+You can install the project using these methods:
+
+### **1️⃣ First Method**
+  Downloading by github website
+  Look at the top of the project files, there is a button labeled <>Code, click on it and select the last option, "Download Zip", to download the file for you.
+
+### **2️⃣ Second Method**
+  Download using git
+  Download the project on the command prompt using the code below.
+```cmd
+  git clone https://github.com/soodi592/soodi592-Terminal
+```
+
+## **🔄 Running**
+
+First open command prompt and head to the project directory where you downloaded the project and then Run the project using python3.
+
+```cmd
+  python3 soodi592_Terminal.py
+```
+
 ## **📖 Full Documentation**
 
 ### **</> Terminal commands**
@@ -230,29 +253,6 @@ Closes the terminal.
 parameters: None
 
 Shows all commands.
-
-## **📥 Installing**
-
-You can install the project using these methods:
-
-### **1️⃣ First Method**
-  Downloading by github website
-  Look at the top of the project files, there is a button labeled <>Code, click on it and select the last option, "Download Zip", to download the file for you.
-
-### **2️⃣ Second Method**
-  Download using git
-  Download the project on the command prompt using the code below.
-```cmd
-  git clone https://github.com/soodi592/soodi592-Terminal
-```
-
-## **🔄 Running**
-
-First open command prompt and head to the project directory where you downloaded the project and then Run the project using python3.
-
-```cmd
-  python3 soodi592_Terminal.py
-```
     
 ## **✅ Used By**
 
